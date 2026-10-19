@@ -1,6 +1,6 @@
 # Pitolio
 
-Public support and privacy: **[couillonnade.github.io/pitolio-support](https://couillonnade.github.io/pitolio-support/)**. Hosting is complete. The detailed guides below are optional and can stay private. [App Store URLs](PUBLISHING.md)
+Public support and privacy: **[couillonnade.github.io/pitolio-support](https://couillonnade.github.io/pitolio-support/)**. 
 
 Flight books, handwritten cockpit notes and a Fuel Timer for general aviation. An **Air Pito** app.
 
