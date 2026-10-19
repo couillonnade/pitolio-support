@@ -34,5 +34,3 @@ Pitolio works without an account or internet connection. Notes and flight record
 The built-in **Flight Notes** form includes airport frequencies, departure/arrival ATIS, manual UTC Sunset, flight times and space for clearances and handwriting. Each flight starts with one or two pages and can grow to four. Notes also work with the timer off.
 
 This repository contains user help and support information. It does not contain the app's source code. Screenshots are genuine simulator captures; [their provenance](assets/screenshots/README.md) is recorded separately.
-
-For the maintainer: [live site and App Store URLs](PUBLISHING.md).
