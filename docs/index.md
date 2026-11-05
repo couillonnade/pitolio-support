@@ -19,4 +19,4 @@ Pitolio 1.2.0 · Updated 27 October 2026
 
 The guides describe Pitolio 1.2.0. Existing saved pages retain their layouts when templates change. [Screenshot sources](../assets/screenshots/README.md) document the demonstration captures.
 
-[Contact support](../SUPPORT.md) · [Privacy](../privacy-policy.md) · [Home](../README.md)
+[Contact support](https://couillonnade.github.io/pitolio-support/#support) · [Privacy](https://couillonnade.github.io/pitolio-support/privacy-policy.html) · [Home](../README.md)

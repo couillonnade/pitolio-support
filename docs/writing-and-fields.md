@@ -18,7 +18,7 @@ Pitolio 1.2.0 · Updated 27 October 2026
 
 Clear notes leaves the active flight running and can be undone as one action. Undo and Redo do not change recorded flight times. Undo history ends when you close the flight pages. For an ordinary typed note, open its keyboard and use **Clear**. To correct a recorded flight time, enter its replacement.
 
-Pencil touches are excluded from the page's pan/zoom gestures. Physical Pencil latency and palm behavior depend on the device; [report a Pencil problem](../SUPPORT.md) with its model and the gestures involved.
+Pencil touches are excluded from the page's pan/zoom gestures. Physical Pencil latency and palm behavior depend on the device; [report a Pencil problem](https://couillonnade.github.io/pitolio-support/#support) with its model and the gestures involved.
 
 ## Type a field
 

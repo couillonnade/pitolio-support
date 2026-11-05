@@ -38,4 +38,4 @@ Keep backups before deleting the app or changing devices. Copies in Files or a c
 
 Reusable text templates are shared from **Settings → Templates → template actions → Export text template** and imported through **Import text template**.
 
-[Troubleshooting](troubleshooting.md) · [Privacy](../privacy-policy.md) · [All help](index.md)
+[Troubleshooting](troubleshooting.md) · [Privacy](https://couillonnade.github.io/pitolio-support/privacy-policy.html) · [All help](index.md)

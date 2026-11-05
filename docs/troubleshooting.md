@@ -24,7 +24,7 @@ Generated forms and original vector PDFs redraw sharply. A scanned PDF is an ima
 
 ## One-finger dragging opens a keyboard, or Pencil changes zoom
 
-A tap opens a field; a drag should pan. Pencil should write/select options without navigating. Record the device/Pencil model, page/spread, selected tool and zoom level, then [send a report](../SUPPORT.md). Physical Pencil and palm behavior cannot be established from simulator screenshots.
+A tap opens a field; a drag should pan. Pencil should write/select options without navigating. Record the device/Pencil model, page/spread, selected tool and zoom level, then [send a report](https://couillonnade.github.io/pitolio-support/#support). Physical Pencil and palm behavior cannot be established from simulator screenshots.
 
 ## How do I correct a flight time?
 
@@ -60,6 +60,6 @@ Open **Settings → Trash** and restore the book, flight or page. **Empty Trash*
 
 ## Do I need internet or an account?
 
-No. Notes, timing, calculation and local reminders work on-device. Importing from or exporting to an online Files provider can need that provider's connection. There is no built-in account or developer cloud sync. See [privacy](../privacy-policy.md).
+No. Notes, timing, calculation and local reminders work on-device. Importing from or exporting to an online Files provider can need that provider's connection. There is no built-in account or developer cloud sync. See [privacy](https://couillonnade.github.io/pitolio-support/privacy-policy.html).
 
-[Contact support](../SUPPORT.md) · [All help](index.md)
+[Contact support](https://couillonnade.github.io/pitolio-support/#support) · [All help](index.md)
