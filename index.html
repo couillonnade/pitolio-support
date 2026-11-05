@@ -8,37 +8,10 @@
   <meta name="color-scheme" content="light dark">
   <meta name="description" content="Pitolio — Support and privacy policy / Assistance et confidentialité.">
   <title>Pitolio — Support / Assistance</title>
-  <style>
-    :root { color-scheme: light dark; --paper: #f6f5ef; --card: #ffffff; --ink: #202c34; --muted: #53616b; --link: #275a7c; --line: #d6dde0; }
-    * { box-sizing: border-box; }
-    html { scroll-padding-top: 1.5rem; }
-    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    main { max-width: 48rem; margin: 0 auto; padding: 3rem 1.25rem; }
-    header { margin-bottom: 2rem; }
-    h1, h2, h3 { line-height: 1.25; letter-spacing: -.02em; }
-    h1 { margin: 0 0 .75rem; font-size: clamp(2rem, 6vw, 3rem); }
-    h2 { margin: 0 0 1rem; font-size: 1.65rem; }
-    h3 { margin: 2rem 0 .75rem; font-size: 1.15rem; }
-    p { margin: .75rem 0; }
-    a { color: var(--link); text-underline-offset: .18em; overflow-wrap: anywhere; }
-    a:focus-visible { outline: 3px solid var(--link); outline-offset: 5px; border-radius: 2px; }
-    nav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin-top: 1.25rem; }
-    nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
-    section { padding: 1.75rem; background: var(--card); border: 1px solid var(--line); border-radius: 1rem; margin-top: 1.25rem; }
-    ul { padding-left: 1.3rem; }
-    li + li { margin-top: .35rem; }
-    .muted { color: var(--muted); }
-    code { font: .95em ui-monospace, "SFMono-Regular", Menlo, monospace; }
-    @media (prefers-color-scheme: dark) {
-      :root { --paper: #0d1319; --card: #151e26; --ink: #edf1f3; --muted: #b1bdc7; --link: #94c8e8; --line: #344450; }
-    }
-    @media (max-width: 420px) {
-      main { padding: 2rem 1rem; }
-      section { padding: 1.25rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+  <a class="skip-link" href="#support">Skip to content / Aller au contenu</a>
   <main>
     <header id="english" lang="en">
       <h1>Pitolio</h1>
@@ -46,9 +19,11 @@
         <a href="#english" lang="en" hreflang="en">English</a>
         <a href="#francais" lang="fr" hreflang="fr">Français</a>
       </nav>
-      <p class="muted">Fuel Timer and time calculator on iPhone and iPad. Flight notebooks, Pencil notes and templates on iPad.</p>
+      <p class="badge">Pitolio 1.2.0 · Help updated 27 October 2026</p>
+      <p class="muted intro">Flights, fuel timer, flight history and time calculator on iPhone and iPad. Books, flight pages, Pencil notes and templates on iPad.</p>
       <nav aria-label="Page sections">
         <a href="#support">Support</a>
+        <a href="docs/index.html">User guide</a>
         <a href="#privacy">Privacy policy</a>
       </nav>
     </header>
@@ -56,34 +31,53 @@
     <section lang="en" id="support" aria-labelledby="support-heading">
       <h2 id="support-heading">Support</h2>
       <p>For help with Pitolio, email <a href="mailto:pitolio@couillonnade.com">pitolio@couillonnade.com</a>.</p>
-      <p class="muted">Include your device, iOS or iPadOS version, and what happened. Please do not send passwords or private flight information.</p>
+      <p class="muted">Include your device, iOS or iPadOS version, Pitolio version from About &amp; tips, the steps you took and what happened. Remove private flight information from screenshots.</p>
+      <h3>Start here</h3>
+      <p>On iPad, create a book and choose Flight Notes + Blank paper, then open New flight pages. Write with Apple Pencil or tap fields to type. On iPhone or iPad, Start flight asks for starting fuel and the first tank; recording OUT is a separate action.</p>
+      <p>Record OUT, OFF, ON and IN manually, or enable optional Auto Track. At the end, use End &amp; save flight; Flight history holds the saved logs. Correct a time in Zulu or Local to update the log and associated pages together.</p>
+      <div class="screenshots">
+        <figure><a href="assets/screenshots/flight-spread.png"><img src="assets/screenshots/flight-spread.png" width="2420" height="1668" alt="Two flight pages side by side on iPad" loading="lazy" decoding="async"></a><figcaption>Flight pages on iPad: forms, notes and page tools.</figcaption></figure>
+        <figure class="phone"><a href="assets/screenshots/iphone-flight.png"><img src="assets/screenshots/iphone-flight.png" width="1206" height="2622" alt="Active flight and two-tank fuel timer on iPhone" loading="lazy" decoding="async"></a><figcaption>Flights and fuel tracking on iPhone.</figcaption></figure>
+      </div>
+      <h3>User guide</h3>
+      <ul class="guide-grid">
+        <li><a href="docs/quick-start.html">Quick start</a></li>
+        <li><a href="docs/books-and-flights.html">Books, pages, copying and Trash</a></li>
+        <li><a href="docs/writing-and-fields.html">Writing, ATIS and shared times</a></li>
+        <li><a href="docs/templates.html">Templates and PDF backgrounds</a></li>
+        <li><a href="docs/fuel-timer.html">Flights, fuel timer and Auto Track</a></li>
+        <li><a href="docs/export-and-backup.html">PDF export and editable backups</a></li>
+        <li><a href="docs/settings-and-calculator.html">Settings and time calculator</a></li>
+        <li><a href="docs/troubleshooting.html">Troubleshooting</a></li>
+      </ul>
+      <p>Notes and flight records stay on your device. Export an editable .apbook backup before deleting the app or changing devices. A PDF is a reading copy; book backups do not include all flight history or settings.</p>
     </section>
 
     <section lang="en" id="privacy" aria-labelledby="privacy-heading">
       <!-- BEGIN ENGLISH PRIVACY POLICY -->
       <h2 id="privacy-heading">Pitolio privacy policy</h2>
-      <p>Last updated: 18 October 2026</p>
-      <p>Pitolio provides a Fuel Timer and time calculator on iPhone and iPad. Flight notebooks, Pencil notes and templates are available on iPad only.</p>
+      <p>Last updated: 19 October 2026</p>
+      <p>Pitolio records flights, with a fuel timer, flight history and time calculator on iPhone and iPad. Books, flight pages, Pencil notes and templates are available on iPad only.</p>
       <h3>Data stays on your device</h3>
       <p>Pitolio does not require an account. It has no advertising, analytics, developer-operated cloud sync, or in-app crash-reporting service. The app does not send your notes, flight records or location to the developer.</p>
       <p>Pitolio stores these items locally:</p>
       <ul>
         <li>App settings and calculator state.</li>
-        <li>Active and saved Fuel Timer sessions, fuel entries, and flight milestones.</li>
-        <li>Books, flights, typed values, selected options and Pencil handwriting.</li>
+        <li>Active flights and saved flight logs, fuel entries, and flight milestones.</li>
+        <li>Books, flight pages, typed values, selected options and Pencil handwriting.</li>
         <li>Templates and copies of PDF backgrounds that you import.</li>
         <li>Items moved to the app&#x27;s Trash until restored or otherwise removed with app data.</li>
       </ul>
       <h3>Optional location</h3>
       <p>Auto Track uses device location and movement to help detect OUT, OFF, ON and IN. It requests <strong>Always</strong> location access so detection can continue during an armed session while the device is locked. Location samples are processed on the device; the app does not upload them or create a saved route track.</p>
-      <p>Location is optional. You can use notes, the calculator and manual Fuel Timer actions without enabling Auto Track. You can change permission in iOS/iPadOS Settings. The app stops its location updates when no eligible Auto Track session is active.</p>
+      <p>Location is optional. You can use notes, the calculator and manual flight controls without enabling Auto Track. You can change permission in iOS/iPadOS Settings. The app stops its location updates when no eligible Auto Track session is active.</p>
       <h3>Notifications</h3>
       <p>Fuel reminders are local notifications scheduled on your device. They do not require a push-notification server. You control notification permission in iOS/iPadOS Settings.</p>
       <h3>Imports, exports and backups</h3>
       <p>When you import a PDF, template or editable book, Pitolio copies the selected content into its local storage. When you export a PDF, text template or <code>.apbook</code> backup, you choose where it goes using the system Files/share interface.</p>
       <p>A service or person you choose to share with receives that exported content. Files stored in iCloud Drive or another provider, system device backups, and diagnostics you independently share with Apple are governed by those services and your device settings. Pitolio does not operate those services.</p>
       <h3>Your choices</h3>
-      <p>You can clear a page, move books/flights/pages to Trash, delete saved timer logs, remove reusable templates, and restore or export books. Deleting a template preserves backgrounds used by existing flight pages. Deleting the app removes its on-device data; exported copies and system backups may remain wherever you saved them.</p>
+      <p>You can clear a page, move books and flight pages to Trash, delete saved flight logs, remove reusable templates, and restore or export books. Deleting a template preserves backgrounds used by existing flight pages. Deleting the app removes its on-device data; exported copies and system backups may remain wherever you saved them.</p>
       <h3>Contact and changes</h3>
       <p>For privacy questions, email <a href="mailto:pitolio@couillonnade.com">pitolio@couillonnade.com</a> or see <a href="#support">Pitolio support</a>.</p>
       <p>This policy will be updated if the app&#x27;s data practices change.</p>
@@ -92,9 +86,11 @@
 
     <header id="francais" lang="fr" style="margin-top: 3rem">
       <h2>Assistance et confidentialité</h2>
-      <p class="muted">Minuteur carburant et calculatrice de durées sur iPhone et iPad. Carnets de vol, notes au Pencil et modèles sur iPad.</p>
+      <p class="badge">Pitolio 1.2.0 · Aide mise à jour le 27 octobre 2026</p>
+      <p class="muted intro">Vols, minuteur carburant, historique des vols et calculatrice de durées sur iPhone et iPad. Carnets, pages de vol, notes au Pencil et modèles sur iPad.</p>
       <nav aria-label="Rubriques en français">
         <a href="#assistance">Assistance</a>
+        <a href="docs/index.html" lang="en">Guide en anglais</a>
         <a href="#confidentialite">Confidentialité</a>
         <a href="#english" lang="en" hreflang="en">English</a>
       </nav>
@@ -103,39 +99,49 @@
     <section lang="fr" id="assistance" aria-labelledby="assistance-heading">
       <h2 id="assistance-heading">Assistance</h2>
       <p>Pour toute question sur Pitolio, écrivez à <a href="mailto:pitolio@couillonnade.com">pitolio@couillonnade.com</a>.</p>
-      <p class="muted">Indiquez votre appareil, sa version d’iOS ou d’iPadOS et le problème rencontré. N’envoyez ni mots de passe ni informations de vol privées.</p>
+      <p class="muted">Indiquez votre appareil, sa version d’iOS ou d’iPadOS, la version de Pitolio dans À propos et les étapes du problème. Retirez les informations de vol privées de vos captures.</p>
+      <h3>Bien démarrer</h3>
+      <p>Sur iPad, créez un carnet avec Notes de vol + Papier vierge, puis de nouvelles pages de vol. Écrivez au Pencil ou touchez un champ pour saisir du texte. Sur iPhone ou iPad, Démarrer un vol permet de choisir le carburant de départ et le premier réservoir ; l’enregistrement de OUT est une action distincte.</p>
+      <p>Enregistrez OUT, OFF, ON et IN manuellement, ou activez le suivi automatique facultatif. Terminez avec Terminer et enregistrer le vol ; retrouvez son journal dans l’historique des vols. Une correction d’heure en Zulu ou en heure locale se répercute dans le journal et les pages associées.</p>
+      <p>Les modèles proposent des sections, colonnes, lignes et champs. Le réglage Copier le contenu de chaque champ détermine les valeurs et l’écriture conservées lors de la copie d’un vol. Les pages existantes gardent leur mise en page.</p>
+      <p><a href="docs/index.html" lang="en">Consulter le guide complet en anglais</a> : démarrage, carnets et pages, ATIS, modèles, minuteur carburant, export, sauvegarde, réglages et dépannage.</p>
+      <p>Vos notes et journaux restent sur votre appareil. Avant de supprimer l’app ou de changer d’appareil, exportez une sauvegarde modifiable .apbook. Un PDF est une copie de lecture ; une sauvegarde de carnet ne contient pas tout l’historique des vols ni tous les réglages.</p>
     </section>
 
     <section lang="fr" id="confidentialite" aria-labelledby="confidentialite-heading">
       <!-- BEGIN FRENCH PRIVACY POLICY -->
       <h2 id="confidentialite-heading">Politique de confidentialité de Pitolio</h2>
-      <p>Dernière mise à jour : 18 octobre 2026</p>
-      <p>Pitolio propose un minuteur carburant et une calculatrice de durées sur iPhone et iPad. Les carnets de vol, les notes au Pencil et les modèles sont disponibles uniquement sur iPad.</p>
+      <p>Dernière mise à jour : 19 octobre 2026</p>
+      <p>Pitolio enregistre les vols, avec un minuteur carburant, un historique des vols et une calculatrice de durées sur iPhone et iPad. Les carnets, les pages de vol, les notes au Pencil et les modèles sont disponibles uniquement sur iPad.</p>
       <h3>Vos données restent sur votre appareil</h3>
       <p>Pitolio ne nécessite aucun compte. L’app ne contient ni publicité, ni outil d’analyse d’utilisation, ni synchronisation dans le cloud gérée par le développeur, ni service intégré de signalement des plantages. Elle n’envoie au développeur ni vos notes, ni vos données de vol, ni votre position.</p>
       <p>Pitolio enregistre ces éléments localement :</p>
       <ul>
         <li>Les réglages de l’app et l’état de la calculatrice.</li>
-        <li>Les sessions actives et enregistrées du minuteur carburant, les saisies de carburant et les étapes des vols.</li>
-        <li>Les carnets, les vols, les valeurs saisies, les options sélectionnées et l’écriture au Pencil.</li>
+        <li>Les vols en cours et les journaux de vol enregistrés, les saisies de carburant et les étapes des vols.</li>
+        <li>Les carnets, les pages de vol, les valeurs saisies, les options sélectionnées et l’écriture au Pencil.</li>
         <li>Les modèles et les copies des fonds PDF que vous importez.</li>
         <li>Les éléments placés dans la Corbeille de l’app, jusqu’à leur restauration ou leur suppression avec les données de l’app.</li>
       </ul>
       <h3>Localisation facultative</h3>
       <p>Le suivi automatique utilise la position et les mouvements de l’appareil pour aider à détecter les heures OUT, OFF, ON et IN. Il demande l’accès à la localisation <strong>Toujours</strong> pour poursuivre la détection pendant une session activée lorsque l’appareil est verrouillé. Les relevés de position sont traités sur l’appareil ; l’app ne les transmet pas et n’enregistre pas de trace du trajet.</p>
-      <p>La localisation est facultative. Vous pouvez utiliser les notes, la calculatrice et les commandes manuelles du minuteur carburant sans activer le suivi automatique. Vous pouvez modifier l’autorisation dans les Réglages d’iOS ou d’iPadOS. L’app cesse les mises à jour de position lorsqu’aucune session de suivi automatique éligible n’est active.</p>
+      <p>La localisation est facultative. Vous pouvez utiliser les notes, la calculatrice et les commandes manuelles du vol sans activer le suivi automatique. Vous pouvez modifier l’autorisation dans les Réglages d’iOS ou d’iPadOS. L’app cesse les mises à jour de position lorsqu’aucune session de suivi automatique éligible n’est active.</p>
       <h3>Notifications</h3>
       <p>Les rappels de carburant sont des notifications locales programmées sur votre appareil. Ils ne nécessitent aucun serveur de notifications push. Vous gérez l’autorisation des notifications dans les Réglages d’iOS ou d’iPadOS.</p>
       <h3>Imports, exports et sauvegardes</h3>
       <p>Lorsque vous importez un PDF, un modèle ou un carnet modifiable, Pitolio copie le contenu sélectionné dans son stockage local. Lorsque vous exportez un PDF, un modèle texte ou une sauvegarde <code>.apbook</code>, vous choisissez sa destination dans l’interface système de fichiers ou de partage.</p>
       <p>Le service ou la personne avec qui vous choisissez de partager reçoit ce contenu exporté. Les fichiers placés dans iCloud Drive ou chez un autre fournisseur, les sauvegardes système de l’appareil et les diagnostics que vous choisissez de partager avec Apple sont régis par ces services et par les réglages de votre appareil. Pitolio ne gère pas ces services.</p>
       <h3>Vos choix</h3>
-      <p>Vous pouvez effacer une page, placer des carnets, des vols ou des pages dans la Corbeille, supprimer des journaux de minuteur enregistrés, retirer des modèles réutilisables et restaurer ou exporter des carnets. Supprimer un modèle conserve les fonds utilisés par les pages de vol existantes. Supprimer l’app efface ses données sur l’appareil ; les copies exportées et les sauvegardes système peuvent subsister à l’endroit où vous les avez enregistrées.</p>
+      <p>Vous pouvez effacer une page, placer des carnets ou des pages de vol dans la Corbeille, supprimer des journaux de vol enregistrés, retirer des modèles réutilisables et restaurer ou exporter des carnets. Supprimer un modèle conserve les fonds utilisés par les pages de vol existantes. Supprimer l’app efface ses données sur l’appareil ; les copies exportées et les sauvegardes système peuvent subsister à l’endroit où vous les avez enregistrées.</p>
       <h3>Contact et modifications</h3>
       <p>Pour toute question sur la confidentialité, écrivez à <a href="mailto:pitolio@couillonnade.com">pitolio@couillonnade.com</a> ou consultez <a href="#assistance">l’assistance Pitolio</a>.</p>
       <p>Cette politique sera mise à jour si les pratiques de l’app en matière de données changent.</p>
       <!-- END FRENCH PRIVACY POLICY -->
     </section>
+    <footer>
+      <p>Pitolio · Air Pito · <a href="mailto:pitolio@couillonnade.com">pitolio@couillonnade.com</a></p>
+      <p><a href="docs/index.html">User guide (English)</a> · <a href="privacy-policy.html">Privacy policy</a> · <a href="privacy-policy.fr.html" lang="fr">Confidentialité</a></p>
+    </footer>
   </main>
 </body>
 </html>

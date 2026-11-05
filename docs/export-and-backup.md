@@ -1,5 +1,7 @@
 # Export and backup
 
+Pitolio 1.2.0 · Updated 27 October 2026
+
 **iPad only.**
 
 ## Choose the right format
@@ -20,7 +22,7 @@ In the flight's Pages tools, tap **Export this flight PDF**. It includes that fl
 
 On Home, use **book actions → Export whole book PDF**. It includes visible flights in chronological order. Items in Trash are not included. Export names use a flight date/time such as `Flight-2026-10-17-1330.pdf`, without internal IDs.
 
-PDFs use daylight/original paper and matching ink for sharing and printing. Manual times and differing timer references remain visible. Scanned backgrounds keep their original image resolution.
+PDFs use daylight/original paper and matching ink for sharing and printing. Recorded times match the associated flight log, with no alternate timer references. Handwriting remains visible. Scanned backgrounds keep their original image resolution.
 
 ## Editable backup and restore
 
@@ -28,9 +30,11 @@ PDFs use daylight/original paper and matching ink for sharing and printing. Manu
 2. Save the `.apbook` somewhere outside the app's storage.
 3. To restore, open **Settings → Restore editable book backup** and select the file.
 
-The backup contains the book's saved layouts, typed values, options, ink and original PDF backgrounds. Restore creates a **separate editable book**; it does not overwrite the original or restore the app's active Fuel Timer. Fuel Timer history/settings are not a whole-device backup inside this file.
+The backup contains the book's saved layouts, typed values, options, ink and original PDF backgrounds. Restore creates a **separate editable book**; it does not overwrite the original or restore the app's active Fuel timer. Fuel flight history/settings are not a whole-device backup inside this file.
 
 Keep backups before deleting the app or changing devices. Copies in Files or a cloud provider are managed by the destination you choose. Treat exports as containing everything written on those pages.
+
+**Copy this flight** makes another flight inside the same book; it is not a backup stored outside the app. Choose which fields carry over with the template’s **Copy content** setting.
 
 Reusable text templates are shared from **Settings → Templates → template actions → Export text template** and imported through **Import text template**.
 
