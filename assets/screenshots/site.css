@@ -29,6 +29,9 @@ li+li { margin-top:.35rem; }
 .guide-grid a:hover { text-decoration:underline; }
 .guide-content h2 { margin-top:2rem; }
 img { display:block; max-width:100%; height:auto; }
+.demo { margin:2rem 0 0; padding-top:1rem; border-top:1px solid var(--line); }
+.demo h3 { margin-top:0; }
+.demo img { width:auto; max-height:40rem; margin:1rem auto 0; border:1px solid var(--line); border-radius:.5rem; }
 code { font:.95em ui-monospace,Menlo,monospace; }
 pre { overflow-x:auto; padding:1rem; background:var(--paper); }
 .table-scroll { overflow-x:auto; }
