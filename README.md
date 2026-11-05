@@ -6,6 +6,8 @@ Books, flight pages and flight tracking with a fuel timer for general aviation. 
 
 On **iPad**, keep each flight's notes in a book, write with Apple Pencil, fill an ATIS with a guided keyboard, and keep the fuel timer in view. On **iPhone**, start flights, use the fuel timer, review Flight history and calculate durations.
 
+[Watch the demos below](#demos) to see field entry, ATIS, multiple pages, time calculations and template editing.
+
 The app is available in **French and English**. A French device starts in French; all other device languages start in English. Change this anytime in **Settings → Language** (**Réglages → Langue**). Saved notes and custom templates keep their original text.
 
 | Feature | iPhone | iPad |
@@ -18,6 +20,46 @@ The app is available in **French and English**. A French device starts in French
 Pitolio works without an account or internet connection. Notes and flight records are stored locally; you can export them, and device backups may include them.
 
 ![Pitolio books on iPad](assets/screenshots/books.png)
+
+## Demos
+
+Enter information with the keyboard, Apple Pencil or the guided wizard. Choose whichever suits you at the time, switch whenever you want, and mix the methods within the same flight notes.
+
+### Enter data with the keyboard
+
+Tap a field and type its value using the keyboard.
+
+![Entering field values with the keyboard](assets/animated/Fields%20Keyboard.gif)
+
+### Copy ATIS with the wizard
+
+Use the guided wizard to enter the ATIS information you hear, step by step.
+
+![Entering ATIS information with the guided wizard](assets/animated/wizard%20mode.gif)
+
+### Enter data with Apple Pencil
+
+Write directly in the fields with Apple Pencil, alongside any typed entries.
+
+![Writing in fields with Apple Pencil](assets/animated/Hand%20Writing.gif)
+
+### Work with multiple pages and zoom levels
+
+Move between flight pages and use different zoom levels to see the whole page or focus on a detail.
+
+![Working with multiple flight pages at different zoom levels](assets/animated/Multiple%20pages.gif)
+
+### Calculate times and durations
+
+Use the time calculator to work with hours and minutes.
+
+![Using the calculator for time calculations](assets/animated/calculator.gif)
+
+### Edit templates visually
+
+Use the graphical template editor to arrange fields and adapt the layout to your own notes.
+
+![Editing a template with the graphical editor](assets/animated/template%20edit.gif)
 
 ## Start here
 
