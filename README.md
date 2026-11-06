@@ -6,7 +6,7 @@ Books, flight pages and flight tracking with a fuel timer for general aviation. 
 
 On **iPad**, keep each flight's notes in a book, write with Apple Pencil, fill an ATIS with a guided keyboard, and keep the fuel timer in view. On **iPhone**, start flights, use the fuel timer, review Flight history and calculate durations.
 
-[Watch the demos below](#demos) to see field entry, ATIS, multiple pages, time calculations and template editing.
+[Watch the demos below](#demos) to see field entry, ATIS, multiple pages, fuel management and reminders, time calculations and template editing.
 
 The app is available in **French and English**. A French device starts in French; all other device languages start in English. Change this anytime in **Settings → Language** (**Réglages → Langue**). Saved notes and custom templates keep their original text.
 
@@ -48,6 +48,12 @@ Write directly in the fields with Apple Pencil, alongside any typed entries.
 Move between flight pages and use different zoom levels to see the whole page or focus on a detail.
 
 ![Working with multiple flight pages at different zoom levels](assets/animated/Multiple%20pages.gif)
+
+### Easy fuel management and reminders
+
+See the estimated fuel remaining in each tank at a glance, and get reminders when it’s time to switch tanks.
+
+![Fuel levels in each tank and tank-switch reminders](assets/animated/fuel.gif)
 
 ### Calculate times and durations
 
